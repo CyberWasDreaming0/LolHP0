@@ -480,7 +480,7 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
@@ -503,6 +503,10 @@ header .navbar ul li a:hover {
   gap: 1rem;
   margin-top: 1rem;
 }
+.skills .container .bar .info img{
+  width: 450px;
+}
+
 .skills .container .bar .info i {
   font-size: 4rem;
 }
@@ -519,14 +523,19 @@ header .navbar ul li a:hover {
     margin: 0;
   }
   .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 1rem;
+    
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
   }
   .skills .container {
     margin-top: 5px;
     width: 100%;
+  }
+
+  .skills .container .bar .info img{
+    width: 200px;
   }
 }
 /* skills media queries ends*/
