@@ -59,12 +59,12 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | LolHP0";
+            $("#favicon").attr("href", "https://images-ext-1.discordapp.net/external/sWco9ldIINrRXTJfsIMJvCCOjhmIr_8MvDRKsRDQhME/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/708074274824650822/da6e79ac8ef989a0c8289789369b9e4f.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#favicon").attr("href", "https://images-ext-1.discordapp.net/external/sWco9ldIINrRXTJfsIMJvCCOjhmIr_8MvDRKsRDQhME/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/708074274824650822/da6e79ac8ef989a0c8289789369b9e4f.png");
         }
     });
 

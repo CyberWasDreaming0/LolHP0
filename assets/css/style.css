@@ -1136,12 +1136,12 @@ form .button-area {
 .footer .box-container .box a:hover {
   color: #ffae00;
 }
-.footer .box-container .box .share {
+.footer .box-container .box .share1 {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem 0;
 }
-.footer .box-container .box .share a {
+.footer .box-container .box .share1 a {
   height: 4rem;
   width: 4rem;
   padding: 1rem;
@@ -1154,7 +1154,7 @@ form .button-area {
   color: #02094b;
   border: none;
 }
-.footer .box-container .box .share a:hover {
+.footer .box-container .box .share1 a:hover {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
@@ -1195,7 +1195,7 @@ form .button-area {
   .footer .box-container .box p {
     padding: 0.7rem;
   }
-  .footer .box-container .box .share a {
+  .footer .box-container .box .share1 a {
     padding: 1.2rem;
   }
 }
